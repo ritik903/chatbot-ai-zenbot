@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "image": "/image/info.webp",
+        "toolTip": "I AM AI",
+        "heading": "Business strategy planning",
+        "para": "Duise sagettis rosend accumsas magna onest curos adipiscine contacting the agency secondar",
+        "button": "more details"
+    },
+    {
+        "id": 2,
+        "image": "/image/auto.avif",
+        "toolTip": "I AM AI",
+        "heading": " Intelligent Process Automation (IPA)",
+        "para": "AI-powered robots streamline repetitive tasks by automating workflows, reducing errors, and enhancing operational efficiency across industries.",
+        "button": "more details"
+    },
+    {
+        "id": 3,
+        "image": "/image/auto2.webp",
+        "toolTip": "I AM AI",
+        "heading": "AI-Powered Data Analysis",
+        "para": "Leverage AI robots to collect, process, and analyze vast amounts of data, providing actionable insights for better decision-making and business growth.",
+        "button": "more details"
+    },
+    {
+        "id": 4,
+        "image": "/image/auto4.jpg",
+        "toolTip": "I AM AI",
+        "heading": "Smart Customer Assistance",
+        "para": "AI-driven chatbots and virtual assistants offer 24/7 customer support, handling inquiries, troubleshooting issues, and improving user experience.",
+        "button": "more details"
+    }
+]

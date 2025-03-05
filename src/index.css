@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+.custom-scrollbar::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+.custom-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+@keyframes border-glow {
+    0% {
+        border-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 0 10px rgba(255, 235, 11, 0.8);
+    }
+
+    50% {
+        border-color: rgba(255, 204, 0, 0.8);
+        box-shadow: 0 0 20px rgba(255, 235, 11, 0.8);
+    }
+
+    100% {
+        border-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 0 10px rgba(255, 235, 11, 0.8);
+    }
+}
+
+.animate-border-glow {
+    animation: border-glow 2s infinite alternate ease-in-out;
+}
+
+
+@media (width<=360px) {
+    .fullimg{
+        height: auto;
+        width: 90vw;
+    }
+    .list{
+        gap: 1rem;
+        li{
+            font-size: 1.5rem;
+        }
+    }
+
+    .btn{
+        width: 60vw;
+        padding: 1rem 2rem;
+        margin-left: 18%;
+    }
+}
+
+@media (width <=1070px) {
+
+    .mainHesader {
+        padding: 0 10px;
+    }
+
+    .lists {
+        gap: 1rem;
+        /* font-size: 1rem; */
+    }
+
+   
+}
+
+@media (width <= 450px) {
+    .search {
+            display: flex;
+            gap: 0.3rem;
+        }
+}

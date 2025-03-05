@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "heading" : "Location",
+        "para" : "sahnewal ludhiana punjab",
+        "para2" : "street no-1, pb 141120"
+    },
+    {
+        "id": 2,
+        "heading": "Email Us",
+        "para": "ritikchoudhary90566@gmail.com",
+        "para2": "ritikchoudhary5120@gmail.com"
+    },
+    {
+        "id": 3,
+        "heading": "Free Call",
+        "para": "91+9056659781",
+        "para2": "91+9779409581"
+    },
+    {
+        "id": 3,
+        "heading": "Opening Hour",
+        "para": "Mon to Fri: 09AM - 5PM",
+        "para2": "Sat , sun: Closed"
+    }
+]
